@@ -4,10 +4,8 @@ The task is to build a system to recommend similar articles based on what users 
 
 The main phases of the algorithm are the following:
 
-**Crawling and scraping** - Download text from hundred fandom wiki articles.
-
-**Stemming, lemmatization** - preprocess downloaded documents into the most suitable form for this
+1) **Crawling and scraping** - Download text from hundred fandom wiki articles.
+2) **Stemming, lemmatization** - preprocess downloaded documents into the most suitable form for this
 task. Store it as a .csv file.
-
-**Similarities** - for a given collection of previously visited articles find the best matches in your
+3) **Similarities** - for a given collection of previously visited articles find the best matches in your
 database and recommend them to the use
